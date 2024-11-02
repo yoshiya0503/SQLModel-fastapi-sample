@@ -1,0 +1,17 @@
+[project]
+name = "sqlmodelexample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiomysql>=0.2.0",
+    "cryptography>=43.0.3",
+    "fastapi[standard]>=0.115.4",
+    "PyMySQL>=1.1.1",
+    "sqlmodel>=0.0.22",
+]
+
+[tool.ruff]
+line-length = 150
+
